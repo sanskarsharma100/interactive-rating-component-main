@@ -19,8 +19,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-iebVeY4EBD)
-- Live Site URL: [Add live site URL here](https://sanskarsharma100.github.io/interactive-rating-component-main/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-iebVeY4EBD)
+- Live Site URL: [Live Site](https://sanskarsharma100.github.io/interactive-rating-component-main/)
 
 ## My process
 
