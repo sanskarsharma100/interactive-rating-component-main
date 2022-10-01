@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#userRatingCard,
+#sumittedCard {
+    font-family: 'Overpass', sans-serif;
+    background-image: linear-gradient(to bottom, hsl(212, 18%, 14%), hsl(220, 16%, 11%));
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 1.5625rem;
+    margin-top: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#userRatingCard img {
+    border-radius: 50%;
+    padding: 0.8rem;
+    background-color: hsl(213, 19%, 18%);
+}
+
+#userRatingCard h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+p {
+    font-size: 2rem;
+    color: hsl(216, 12%, 54%);
+    font-size: 0.875em;
+    line-height: 2.2;
+    margin: 1.2rem 0;
+}
+
+#userRatingCard ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error-msg {
+    margin: 0;
+    color: red;
+}
+
+.rating-btn {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    border-style: none;
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    transition: 300ms;
+}
+
+.rating-btn:not(.focused):hover {
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.focused {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submitBtn {
+    position: relative;
+    padding: 0.8rem 0;
+    margin-top: 1.4rem;
+    width: 100%;
+    border-radius: 24px;
+    border-style: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 0.325rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 300ms;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#sumittedCard {
+    text-align: center;
+}
+
+#sumittedCard img {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.display-rating {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.3rem 1rem 0;
+    border-radius: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appreciation-msg {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    font-size: 11px;
+    margin-top: auto;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
